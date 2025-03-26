@@ -6,10 +6,10 @@ def calculate_discount(price, discount_percent):
    
 # my Iphone 15 example
 original_price = 15000
-discount_percent = 0,2
+discount_percent = 20
 
 discount = calculate_discount(price, discount_percent) #type:ignore
-print(f"discount_percent: ${discount}")
+print(f"Discount Amount: ${discount:2f})
 
 if discount_percent == 20:
     print("Discount Applied")
@@ -23,6 +23,8 @@ price = float(input("Enter the original price:"))
 discount_percent = float(input("Enter the discount percentage:"))
 
 # calculate the final price
-final_price = price - discount_percent
-return price(final_price, 2) #type:ignore
+discount amount = calculate_discount(price, discount_percent)
+final_price = price - discount_amount
+
+print(f"final price after discount: ${final_price:} ")
 
