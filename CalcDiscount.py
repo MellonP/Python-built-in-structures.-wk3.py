@@ -8,7 +8,7 @@ def calculate_discount(price, discount_percent):
 original_price = 15000
 discount_percent = 20
 
-discount = calculate_discount(price, discount_percent) #type:ignore
+discount = calculate_discount(price, discount_percent) 
 print(f"Discount Amount: ${discount:2f}")
 
 if discount_percent == 20:
