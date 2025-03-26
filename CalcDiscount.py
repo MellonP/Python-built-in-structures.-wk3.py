@@ -9,7 +9,7 @@ original_price = 15000
 discount_percent = 20
 
 discount = calculate_discount(price, discount_percent) #type:ignore
-print(f"Discount Amount: ${discount:2f})
+print(f"Discount Amount: ${discount:2f}")
 
 if discount_percent == 20:
     print("Discount Applied")
@@ -26,5 +26,5 @@ discount_percent = float(input("Enter the discount percentage:"))
 discount amount = calculate_discount(price, discount_percent)
 final_price = price - discount_amount
 
-print(f"final price after discount: ${final_price:} ")
+print(f"final price after discount: ${final_price:2f}")
 
